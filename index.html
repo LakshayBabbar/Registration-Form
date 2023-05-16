@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body background="./src/c4841xki.png">
+  <br>
+  <center>
+    <div id="div1">
+      <br>
+      <h1>REGISTRATION FORM</h1>
+      <br>
+    </div>
+  </center>
+  <br>
+  <center>
+    <div id="div2">
+      <form action="dynamic.php" method="get">
+        <table width="85%">
+          <tr>
+            <td>Name</td>
+            <td><input type="text" name="t1"></td>
+          </tr>
+          <tr>
+            <td>Email</td>
+            <td><input type="text" name="t2"></td>
+          </tr>
+          <br><br>
+          <tr>
+            <td>Phone No &nbsp;</td>
+            <td><input type="number" name="pn"></td>
+          </tr>
+          <tr>
+            <td>Course</td>
+            <td>
+              <select name="course">
+                <option>Select</option>
+                <option>BCA</option>
+                <option>BTECH</option>
+                <option>BBA</option>
+                <option>BCOM</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>DOB</td>
+            <td><input type="date" name="dob"></td>
+          </tr>
+          <tr>
+            <td>Branch</td>
+            <td>
+              <select name="Branch">
+                 <option>Select</option>
+                <option>Delhi</option>
+                <option>Mumbai</option>
+                <option>Hyderabad</option>
+                <option>Chennai</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Address</td>
+            <td><input type="text" name="add"></td>
+          </tr>
+          <tr>
+            <td>Password &nbsp;</td>
+            <td><input type="password" name="pass" required></td>
+          </tr>
+        </table>
+        <br>
+        <button type="submit">Submit</button>
+        &nbsp;&nbsp;
+        <button type="reset">Reset</button>
+      </form>
+      <br>
+    </div>
+  </center>
+</body>
+</html>

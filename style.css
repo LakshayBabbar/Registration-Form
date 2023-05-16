@@ -1,0 +1,54 @@
+#div1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: rgba(212, 183, 209, 0.719);
+    width: 35%;
+  }
+  
+  #div2 {
+    border-radius: 20px;
+    border-color: black;
+    width: 35%;
+    background-color: rgba(245, 241, 241, 0.527);
+  }
+  
+  input {
+    width: 100%;
+    padding: 9px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  select {
+    width: 100%;
+    padding: 9px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  label, table {
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  button {
+    border-radius: 20px;
+    width: 20%;
+    height: 30px;
+    font-size: 20px;
+    border: 1px solid rgb(6, 102, 139);
+  }
+  
+  @media only screen and (max-width: 1250px) {
+    #div1,
+    #div2,input,select,button {
+      width: 80%;
+    }
+  }
