@@ -1,2 +1,2 @@
 # Registration-Form
-Basic registration created by using HTML, CSS, PHP.
+Basic registration form created by using HTML, CSS, PHP.
